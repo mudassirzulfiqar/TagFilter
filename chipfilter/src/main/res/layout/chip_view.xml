@@ -3,7 +3,7 @@
     android:id="@+id/main"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="6sp"
+    android:layout_marginLeft="20sp"
     android:background="@drawable/chip_selected"
     android:orientation="horizontal"
     android:padding="5sp">
@@ -14,19 +14,21 @@
         android:layout_width="18sp"
         android:layout_height="18sp"
         android:layout_gravity="center"
-        android:src="@drawable/ic_directions_bus_white_24dp" />
+        android:src="@drawable/ic_directions_bus_white_24dp"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/filter_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="4sp"
+        android:paddingBottom="2sp"
         android:paddingLeft="8sp"
         android:paddingRight="8sp"
-        android:paddingTop="4sp"
-        android:text="thisisTesting"
+        android:paddingTop="2sp"
+        android:text="HOV"
         android:textColor="@color/white"
-        android:textSize="12sp" />
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
 
 </LinearLayout>

@@ -69,7 +69,9 @@ public class ChipAdapter extends RecyclerView.Adapter<ChipAdapter.ViewHolder> {
         if (tag.isSelected()) {
             selectedIndex = position;
             holder.chip.setBackground(ContextCompat.getDrawable(context, R.drawable.chip_selected));
+            holder.filterTitle.setTextColor(ContextCompat.getColor(context, R.color.white));
         } else {
+            holder.filterTitle.setTextColor(ContextCompat.getColor(context, R.color.dark_grey));
             holder.chip.setBackground(ContextCompat.getDrawable(context, R.drawable.chip_deselect));
         }
 

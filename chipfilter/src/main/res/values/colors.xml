@@ -4,7 +4,9 @@
     <color name="divider">#BDBDBD</color>
     <color name="white">#fff</color>
     <color name="blue">#1976D2</color>
-    <color name="grey">#33000000</color>
+    <color name="selected">#ffab00</color>
+    <color name="grey">#ececec</color>
+    <color name="dark_grey">#b9b9b9</color>
 
 
 </resources>
