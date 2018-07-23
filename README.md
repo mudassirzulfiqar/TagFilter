@@ -37,10 +37,9 @@ Define layout in your xml file.
 ```java
   ChipFilter chipFilter = findViewById(R.id.chip_filter);
         chipFilter.init(this);
-        chipFilter.addFilter(new Filter("Speedo", "0", R.drawable.ic_directions_bus_white_24dp, "", true));
-        chipFilter.addFilter(new Filter("HOV", "0", R.drawable.ic_directions_bus_white_24dp, "", false));
-        chipFilter.addFilter(new Filter("LOV", "0", R.drawable.ic_directions_bus_white_24dp, "", false));
-        chipFilter.addFilter(new Filter("Speedo", "0", R.drawable.ic_directions_bus_white_24dp, "", false));
+        chipFilter.addFilter(new Filter("Bus", "0", R.drawable.ic_bus, "", true));
+        chipFilter.addFilter(new Filter("Train", "1", R.drawable.ic_train, "", false));
+        chipFilter.addFilter(new Filter("Car", "2", R.drawable.ic_card, "", false));
         chipFilter.setOnFilterSelectListener(new ChipFilter.FilterSelect() {
             @Override
             public void onSelect(Filter tag) {
